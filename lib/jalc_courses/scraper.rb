@@ -1,0 +1,2 @@
+class JalcCourses::Scraper 
+end
