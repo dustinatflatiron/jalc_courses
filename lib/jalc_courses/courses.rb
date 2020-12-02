@@ -1,6 +1,6 @@
 require_relative "version.rb"
 require_relative "scraper.rb"
-
+require 'pry'
 
 class JalcCourses::Courses 
       attr_accessor :date, :title, :description, :instructor
@@ -16,6 +16,7 @@ class JalcCourses::Courses
 
     def self.all
       @@all.slice(1,9)
+      binding.pry
     end
 
     def self.display_courses

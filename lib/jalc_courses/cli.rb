@@ -7,8 +7,8 @@ class JalcCourses::CLI
   def go
     puts "Hi. Below you will find the Fall 2020 course names at Jazz at Lincoln Center's Swing University! Registration for individual classes are still being accepted!"
     puts ""
-    Scraper.make_courses('https://jazzatlincolncenter.squarespace.com/swing-u')
-    Courses.display_courses
+    JalcCourses::Scraper.make_courses('https://jazzatlincolncenter.squarespace.com/swing-u')
+    JalcCourses::Courses.display_courses
     puts ""
     puts "Please enter the number to the left of the course for more information."
     input = gets.strip.to_i
@@ -28,7 +28,7 @@ def valid_input(input) #self
   else
     puts "Please try again."
     puts ""
-    Courses.display_courses #self
+    JalcCourses::Courses.display_courses #self
     input = gets.strip.to_i
     valid_input(input)
   end
@@ -36,13 +36,13 @@ end
 
 def get_course_info(input) #self
   if valid_input(input) #self
-    puts "Title: #{Courses.all[input - 1].title}"
+    puts "Title: #{JalcCourses::Courses.all[input - 1].title}"
     puts ""
-    puts "Date: #{Courses.all[input - 1].date}"
+    puts "Date: #{JalcCourses::Courses.all[input - 1].date}"
     puts ""
-    puts "Description: #{Courses.all[input - 1].description}"
+    puts "Description: #{JalcCourses::Courses.all[input - 1].description}"
     puts ""
-    puts "#{Courses.all[input - 1].instructor}"
+    puts "#{JalcCourses::Courses.all[input - 1].instructor}"
     puts ""
   end
 end
