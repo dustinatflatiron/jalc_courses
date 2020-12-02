@@ -16,7 +16,6 @@ class JalcCourses::Courses
 
     def self.all
       @@all.slice(1,9)
-      binding.pry
     end
 
     def self.display_courses
