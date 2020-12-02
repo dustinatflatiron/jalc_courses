@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["'mccray austin'"]
   spec.email         = ["'tubach75@hotmail.com'"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{this is the summary}
+  spec.description   = %q{this is the description}
   spec.homepage      = "https://www.pleasework.com"
   spec.license       = "MIT"
 
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://www.pleasework.com"
-    spec.metadata["changelog_uri"] = https://www.pleasework.com"
+    spec.metadata["changelog_uri"] = "https://www.pleasework.com"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
