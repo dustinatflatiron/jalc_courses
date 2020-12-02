@@ -6,5 +6,6 @@ class JalcCourses::CLI
   def go 
     puts "Hello there!"
     JalcCourses::Courses.test
+    JalcCourses::Scraper.this_test
   end
 end
