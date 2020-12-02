@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/jalc_courses/cli.rb"
+
+JalcCourses::CLI.new.go
