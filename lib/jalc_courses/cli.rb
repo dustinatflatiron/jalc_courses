@@ -20,7 +20,7 @@ class JalcCourses::CLI
     view_another_course(input_two)
   end
 
-end
+
 
 def valid_input(input) #self
   if input >= 1 && input <=9
@@ -58,5 +58,7 @@ def view_another_course(input_two) #self
     input_two = gets.strip.downcase
     view_another_course(input_two) #self
   end
+
+end
 
 end
