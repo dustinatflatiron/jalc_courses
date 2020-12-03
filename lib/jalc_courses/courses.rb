@@ -2,8 +2,8 @@ require_relative "version.rb"
 require_relative "scraper.rb"
 require 'pry'
 
-class JalcCourses::Courses 
-      attr_accessor :date, :title, :description, :instructor
+  class JalcCourses::Courses 
+    attr_accessor :date, :title, :description, :instructor
     @@all = []
 
     def initialize(date, title, description, instructor)
@@ -24,5 +24,5 @@ class JalcCourses::Courses
       end
     end
 
-end
+  end
 
