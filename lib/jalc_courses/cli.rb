@@ -8,8 +8,6 @@ class JalcCourses::CLI
     puts "Hi. Below you will find the Fall 2020 course names at Jazz at Lincoln Center's Swing University! Registration for individual classes are still being accepted!",""
 
   def go
-    #puts "Hi. Below you will find the Fall 2020 course names at Jazz at Lincoln Center's Swing University! Registration for individual classes are still being accepted!"
-    #puts ""
     JalcCourses::Scraper.make_courses('https://jazzatlincolncenter.squarespace.com/swing-u')
     JalcCourses::Courses.display_courses
     puts ""
@@ -17,8 +15,7 @@ class JalcCourses::CLI
     input = gets.strip.to_i
     get_course_info(input)
     puts ""
-    puts "Would you like to view another artist? Enter: y or n.  Thank you."
-    puts ""
+    puts "Would you like to view another artist? Enter: y or n.  Thank you.",""
     input_two = gets.strip.downcase
     view_another_course(input_two)
   end
