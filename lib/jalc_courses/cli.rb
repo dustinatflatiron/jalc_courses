@@ -28,9 +28,6 @@ class JalcCourses::CLI
       else
       puts "Please try again.",""
       go
-      #JalcCourses::Courses.display_courses
-      #input = gets.strip.to_i
-      #valid_input(input)
       end
     end
 
