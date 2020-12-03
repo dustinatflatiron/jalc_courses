@@ -26,8 +26,8 @@ class JalcCourses::CLI
       if input >= 1 && input <=9
         true
       else
-      puts "Please try again.",""
-      go
+        puts "Please try again.",""
+        go
       end
     end
 
