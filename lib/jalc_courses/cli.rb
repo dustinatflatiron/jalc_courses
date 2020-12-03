@@ -3,10 +3,13 @@ require_relative "courses.rb"
 require_relative "scraper.rb"
 
 class JalcCourses::CLI 
+  
+    puts ""
+    puts "Hi. Below you will find the Fall 2020 course names at Jazz at Lincoln Center's Swing University! Registration for individual classes are still being accepted!",""
 
   def go
-    puts "Hi. Below you will find the Fall 2020 course names at Jazz at Lincoln Center's Swing University! Registration for individual classes are still being accepted!"
-    puts ""
+    #puts "Hi. Below you will find the Fall 2020 course names at Jazz at Lincoln Center's Swing University! Registration for individual classes are still being accepted!"
+    #puts ""
     JalcCourses::Scraper.make_courses('https://jazzatlincolncenter.squarespace.com/swing-u')
     JalcCourses::Courses.display_courses
     puts ""
