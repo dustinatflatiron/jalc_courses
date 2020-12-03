@@ -26,8 +26,7 @@ class JalcCourses::CLI
       if input >= 1 && input <=9
         true
       else
-      puts "Please try again."
-      puts ""
+      puts "Please try again.",""
       JalcCourses::Courses.display_courses #self
       input = gets.strip.to_i
       valid_input(input)
@@ -36,22 +35,19 @@ class JalcCourses::CLI
 
     def get_course_info(input) #self
       if valid_input(input) #self
-        puts "Title: #{JalcCourses::Courses.all[input - 1].title}"
-        puts ""
-        puts "Date: #{JalcCourses::Courses.all[input - 1].date}"
-        puts ""
-        puts "Description: #{JalcCourses::Courses.all[input - 1].description}"
-        puts ""
+        puts "Title: #{JalcCourses::Courses.all[input - 1].title}",""
+        puts "Date: #{JalcCourses::Courses.all[input - 1].date}",""
+        puts "Description: #{JalcCourses::Courses.all[input - 1].description}",""
         puts "#{JalcCourses::Courses.all[input - 1].instructor}"
-        puts ""
       end
     end
 
     def view_another_course(input_two) #self
       if input_two == "y"
-        go #self
+        puts ""
+        go
       elsif input_two == "n"
-        puts "Have a wonderful day!"
+        puts "Have a wonderful day, and keep on Swingin!'",""
         exit
       else
         puts "Please try again"
