@@ -1,6 +1,6 @@
-require_relative "version.rb"
-require_relative "scraper.rb"
-require 'pry'
+#require_relative "version.rb"
+#require_relative "scraper.rb"
+#require 'pry'
 
   class JalcCourses::Courses 
     attr_accessor :date, :title, :description, :instructor

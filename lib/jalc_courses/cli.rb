@@ -1,7 +1,9 @@
-require_relative "version.rb"
-require_relative "courses.rb"
-require_relative "scraper.rb"
-require 'pry'
+#require_relative "version.rb"
+#require_relative "courses.rb"
+#require_relative "scraper.rb"
+#require 'pry'
+
+#require_relative '/lib/jalc_courses.rb'
 
 class JalcCourses::CLI 
   

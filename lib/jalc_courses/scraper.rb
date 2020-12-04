@@ -1,8 +1,8 @@
-require_relative "version.rb"
-require_relative "courses.rb"
-require "nokogiri"
-require "open-uri"
-require "pry"
+#require_relative "version.rb"
+#require_relative "courses.rb"
+#require "nokogiri"
+#require "open-uri"
+#require "pry"
 
   class JalcCourses::Scraper 
     def self.make_courses(site)
