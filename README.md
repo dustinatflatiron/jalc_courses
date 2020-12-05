@@ -1,8 +1,6 @@
 # JalcCourses
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jalc_courses`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This file will allow you to view the courses available during Jazz at Lincoln Center's Fall 2020 Swing University session.  By pressing the number of the listed course, you will be able to view the time, title, description and instructor for the selected course.
 
 ## Installation
 
