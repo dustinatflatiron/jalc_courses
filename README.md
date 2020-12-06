@@ -6,13 +6,13 @@ This file will allow you to view the courses available during Jazz at Lincoln Ce
 
 Install it yourself as:
 
-$ gem install jalc_courses
+    $ gem install jalc_courses
 
 ## Usage
 
 Type the following:
 
-$ jalc_courses
+    $ jalc_courses
 
 ## Development
 
