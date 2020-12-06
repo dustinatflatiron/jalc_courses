@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-#require_relative "../lib/jalc_courses/cli.rb"
 require './lib/jalc_courses'
 
 JalcCourses::CLI.new.go
