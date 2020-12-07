@@ -20,9 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Type the following:
-
-    $ jalc_courses
+TODO: Write usage instructions here
 
 ## Development
 
