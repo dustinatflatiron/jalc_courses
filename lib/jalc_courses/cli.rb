@@ -11,7 +11,7 @@ class JalcCourses::CLI
       input = gets.strip.to_i
       get_course_info(input)
       puts ""
-      puts "Would you like to view another artist? Enter: y or n.  Thank you.",""
+      puts "Would you like to view another course? Enter: y or n.  Thank you.",""
       input_two = gets.strip.downcase
       view_another_course(input_two)
     end
