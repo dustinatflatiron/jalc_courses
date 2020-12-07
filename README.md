@@ -4,7 +4,17 @@ This file will allow you to view the courses available during Jazz at Lincoln Ce
 
 ## Installation
 
-Install it yourself as:
+Add this line to you application's Gemfile:
+
+```ruby
+gem 'jalc_courses'
+```
+
+And then execute:
+
+    $ bundle
+    
+Or install it yourself as:
 
     $ gem install jalc_courses
 
